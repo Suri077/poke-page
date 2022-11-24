@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>poke page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+
+        <div class="container__menu">
+            <div class="logo">
+                <img src="img/Mi proyecto.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="home.html" id="selected">Home</a></li>
+                        <li><a href="Pokedex.html">Pokedex</a></li>
+                        <li><a href="#">Juegos</a></li>
+                        <li><a href="#">Preguntas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container__cover">
+            <div class="cover">
+                <div class="text">
+                    <h1>
+                        Pokemón 
+                    </h1>
+                    <h2>
+                        ¿Que es?
+                    </h2>
+                    <p>
+                        Es una franquicia de videojuegos que comenzó siendo de tipo RPG para las consolas de Nintendo creada por Satoshi Tajiri en 1995.
+                         Su éxito fue tal que abarcó otros géneros de videojuegos y campos del entretenimiento tales como una serie de anime,
+                          manga y una gran variedad de artículos de colección, como cartas del JCC Pokémon, muñecos, etc
+                    </p>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="carousel__container">
+                    <button aria-label="anterior" class="carousel__anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel__list">
+                        <div class="carousel__elemento">
+                            <img src="img/1.png">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="img/2.png">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="img/3.png">
+                        </div>
+                        <div class="carousel__elemento">
+                            <img src="img/4.png">
+                        </div>
+                    </div>
+                    <button aria-label="siguiente" class="carousel__siguiente">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div role="tablist" class="carousel__indicadores"></div>
+            </div>
+        </div>
+    </main>
+<div style="clear:both"></div>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+</html>
